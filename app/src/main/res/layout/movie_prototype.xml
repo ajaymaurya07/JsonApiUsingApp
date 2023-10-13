@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="15dp"
+        >
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/poster_path"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/title"
+            android:text="title"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:padding="5dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/languge"
+            android:text="languge"
+            android:padding="5dp"
+            android:textSize="15sp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/release_date"
+            android:text="release date"
+            android:textSize="15sp"
+            android:padding="5dp"
+
+            />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/vote"
+            android:text="vote"
+            android:padding="5dp"
+            android:textSize="15sp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/overview"
+            android:text="overview"
+            android:padding="5dp"
+            android:textStyle="italic"
+            android:layout_marginBottom="30dp"
+            />
+
+    </LinearLayout>
+</layout>
+
+
+
+
+
+<!--    @SerializedName("overview")-->
+<!--    var overview:String,-->
+
+<!--    @SerializedName("original_title")-->
+<!--    var original_title:String,-->
+
+<!--    @SerializedName("original_language")-->
+<!--    var original_language:String,-->
+
+<!--    @SerializedName("release_date")-->
+<!--    var release_date:String,-->
+
+<!--    @SerializedName("vote_average")-->
+<!--    var vote_average:String-->
